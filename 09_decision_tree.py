@@ -12,8 +12,8 @@ X = iris.data  # Features
 y = iris.target  # Target variable
 # Split the dataset into a training set and a test set
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
+print(len(X_train)
 
-# Using the Gini criterion
 clf_gini = DecisionTreeClassifier(criterion='gini')
 clf_gini.fit(X_train, y_train)
 y_pred_gini = clf_gini.predict(X_test)
