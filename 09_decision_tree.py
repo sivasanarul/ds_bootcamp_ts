@@ -20,6 +20,8 @@ y_pred_gini = clf_gini.predict(X_test)
 accuracy_gini = accuracy_score(y_test, y_pred_gini)
 print("Gini criterion accuracy: {:.2f}%".format(accuracy_gini * 100))
 
+
+print("I am adding this today")
 ##########################
 # new_data_sample = np.array([[5.1, 3.5, 1.4, 0.2]])
 #
